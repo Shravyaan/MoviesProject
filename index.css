@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.moviesection {
+    width: 95%;
+    margin: 40px auto;
+}
+
+.searchmovie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+#searchbtn {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: solid black;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+#searchhere {
+    padding: 5px 10px;
+    width: 300px;
+    border: solid black;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.showmoviedetails {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
