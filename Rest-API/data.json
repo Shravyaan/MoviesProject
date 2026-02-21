@@ -1,5 +1,12 @@
-{
-    "id":1,
-    "name": "Shravya",
-    "course": "BE"
-}
+[
+  {
+    "id": 11,
+    "name": "Samsung",
+    "price": 65
+  },
+  {
+    "id": 3,
+    "name": "Earphone",
+    "price": 50
+  }
+]

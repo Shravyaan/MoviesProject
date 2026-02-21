@@ -6,3 +6,9 @@
 # Express CORS
 
     - Cross Origin Resource Sharing
+
+# CRUD Operations
+
+    - get : retrieving the data
+    - post : pushing the data
+    - put : updating the data
