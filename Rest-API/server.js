@@ -1,9 +1,10 @@
 const express = require("express");
 const fs = require("fs");
-
+const cors = require("cors");
 const app = express();
 const PORT = 3005;
 app.use(express.json());
+app.use(cors());
 
 function readDATA() {
   const data = fs.readFileSync("./data.json");
